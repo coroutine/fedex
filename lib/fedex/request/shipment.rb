@@ -100,7 +100,7 @@ module Fedex
             }
           end
           if @shipping_options[:saturday_delivery]
-            xml.SpecialServiceTypes "SATURDAY_DELIVERY"
+            xml.ShipmentSpecialServiceType "SATURDAY_DELIVERY"
           end
         }
       end
